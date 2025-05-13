@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #FAF7E9;
+}
+
+/* Header */
+header {
+    background: #42593B;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #FAF7E9;
+    border-bottom: 2px solid #42593B;
+    margin-top: 0.5rem;
+}
+
+.nav-list li+li {
+    margin-left: 7rem;
+    
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #673119;
+    font-weight: bold;
+    padding: 0.75rem 0;
+}
+
+.nav-list a:hover {
+    color: #fec3be;
+}
+
+/* Main Content */
+main {
+    max-width: 1300px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: #FCE6E8;
+    color: #202b48;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+}
+.character-float {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+/* Team Section Overrides */
+.section--team {
+    background: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.section--team img {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+#needfinding img,
+#sketching img,
+#storyboard img,
+#prototype img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section Headers */
+.section-header {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #182c4c;
+    color: #fff;
+    font-size: 1.1rem;
+}
